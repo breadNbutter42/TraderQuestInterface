@@ -1,4 +1,0 @@
-[submodule "v2-sdk"]
-	path = v2-sdk
-	url = https://github.com/breadNbutter42/v2-sdk.git
-	branch = covalentHqTutorial
