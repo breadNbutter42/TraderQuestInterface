@@ -91,6 +91,7 @@
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
     "sdk": "cd v2-sdk && yarn && yarn build && cd .. && yarn && yarn build"
   },
+  
   "eslintConfig": {
     "extends": "react-app"
   },
