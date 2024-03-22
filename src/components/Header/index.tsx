@@ -138,7 +138,7 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
 
 export default function Header() {
   const location = useLocation(); // Get the current location using useLocation hook
-  const isAggregatorPage = location.pathname === '/aggregator'; // Check if the current page is the aggregator page
+  const isAggregatorPage = location.pathname === '/aggregator'; // Check if the current page is the aggregator page using the pathname
 
   const { account, chainId } = useActiveWeb3React()
 
