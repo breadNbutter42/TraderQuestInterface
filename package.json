@@ -89,7 +89,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
-    "build-sdk": "cd v2-sdk && yarn && yarn build && cd .."  
+    "sdk": "cd v2-sdk && yarn && yarn build && cd .."  
   },
   "eslintConfig": {
     "extends": "react-app"
